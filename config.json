@@ -1,0 +1,22 @@
+{
+  "apps": {
+    "google": {
+      "clientSecret": "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",
+      "clientId": "692108657923-2uafkdn3a59umaqrb8na4nrhp2r9r96e.apps.googleusercontent.com",
+      "apiKey": "AIzaSyD9wys0UKAbFqlCEnrTIKGl3G1nmkPMLRs",
+      "discoveryDocs": "https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest",
+      "scopes": "https://www.googleapis.com/auth/calendar",
+      "baseUrl": "https://www.googleapis.com/calendar/v3"
+    }
+  },
+  "pimexApi": {
+    "url": "https://api.pimex.co/v2",
+    "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExMiwiaWF0IjoxNTc0MTQ3MjA3fQ.YYdQd7sLHSbKLmRDVSqvAG3Y5VaaxXspUUzhfYKRLLg"
+  },
+  "pimexEmailApi": {
+    "url": "https://api.pimex.email"
+  },
+  "pimexCalendar": {
+    "url": "http://localhost:8081"
+  }
+}
