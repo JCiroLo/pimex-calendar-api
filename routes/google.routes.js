@@ -76,9 +76,9 @@ router.post('/available-hours', async (req, res) => {
       }
     }
     return res.status(200).json(availableHours)
-  } catch (e) {
-    console.log(e)
-    return res.status(500).json(e)
+  } catch ({ response }) {
+    console.log(response.status)
+    return res.status(response.status).json(response)
   }
 })
 

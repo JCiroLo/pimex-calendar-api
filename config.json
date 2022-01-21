@@ -17,6 +17,6 @@
     "url": "https://api.pimex.email"
   },
   "pimexCalendar": {
-    "url": "http://localhost:8081"
+    "url": "https://pimex-calendar.herokuapp.com"
   }
 }
